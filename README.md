@@ -19,15 +19,10 @@ This React app demonstrates the **KMeans** and **KMedoids** clustering algorithm
 ## Installation
 
 1. Clone the repository:
-
-   ```bash
    git clone https://github.com/DomVans/KmeansKmedoids.git
-   cd your-repo-name
 
 2. Install dependencies:
    npm install
 
 3. Run the app:
    npm run dev
-
-4 . Open your browser at http://localhost:3000 to interact with the app.
