@@ -1,12 +1,33 @@
-# React + Vite
+# KMeans & KMedoids Clustering Visualization
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This React app demonstrates the **KMeans** and **KMedoids** clustering algorithms with interactive visualization. You can add points, select the number of clusters, choose the algorithm, and see how clusters form step-by-step, including centroid/medoid updates.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Interactive 2D scatter plot to add data points by clicking.
+- Choose between **KMeans** and **KMedoids** clustering.
+- Adjustable number of clusters (`k`).
+- Visual display of cluster assignments with color-coded points.
+- Visualization of centroids (KMeans) or medoids (KMedoids) as squares.
+- Iteration log showing centroid/medoid positions before and after updates.
+- Real-time feedback and stable convergence detection.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/DomVans/KmeansKmedoids.git
+   cd your-repo-name
+
+2. Install dependencies:
+   npm install
+
+3. Run the app:
+   npm run dev
+
+4 . Open your browser at http://localhost:3000 to interact with the app.
