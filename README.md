@@ -23,7 +23,7 @@ This React app demonstrates the **KMeans** and **KMedoids** clustering algorithm
 
 2. Open the folder in any code editor
 
-3. In the terminal on the code editor, install dependencies using:
+3. In the terminal of the code editor, install dependencies using:
    npm install
    
 4. Run the app:
